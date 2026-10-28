@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
-# TV Argentina Curada v6.1 - 2026-10-24 18:10 - BEST
-# Canales: 109
+# TV Argentina Curada v6.1 - 2026-10-28 12:38 - BEST
+# Canales: 111
 
 
 # ======= AIRE - ABIERTOS =======
@@ -23,6 +23,8 @@ https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-name="Telefe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png" group-title="AIRE - ABIERTOS" http-referrer="https://www.mitelefe.com/",Telefe
 #EXTVLCOPT:http-referrer=https://www.mitelefe.com/
 https://telefe.argtelemax.workers.dev/
+#EXTINF:-1 tvg-name="TV Max" tvg-logo="https://i.imgur.com/2Pg0baJ.png" group-title="AIRE - ABIERTOS",TV Max
+https://5cf4a2c2512a2.streamlock.net/tvmax/tvmax/chunklist_w1372291760.m3u8
 #EXTINF:-1 tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-name="TV Pública" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_P%C3%BAblica_Digital_logo.png/240px-TV_P%C3%BAblica_Digital_logo.png" group-title="AIRE - ABIERTOS" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",TV Pública
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://g5.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
@@ -55,13 +57,13 @@ http://181.209.91.106:2222/Live/120e4c580311c6685df90ec4dca2c0b1/lntv.playlist.m
 #EXTINF:-1 tvg-name="TN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/TN_logo.svg/240px-TN_logo.svg.png" group-title="NOTICIAS",TN
 https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
 #EXTINF:-1 tvg-id="Canal.TVE.Internacional.(Televisión.Española).ar" tvg-name="TVE" group-title="NOTICIAS",TVE
-http://138.59.227.20:8000/play/a080/index.m3u8
+http://181.224.255.210:8001/play/a0q9/index.m3u8
 
 # ======= DEPORTES =======
-#EXTINF:-1 tvg-name="DeporTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Deportv_logo.svg/240px-Deportv_logo.svg.png" group-title="DEPORTES",DeporTV
-http://138.59.227.20:8000/play/a07f/index.m3u8
+#EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-name="DeporTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Deportv_logo.svg/240px-Deportv_logo.svg.png" group-title="DEPORTES",DeporTV
+http://158.172.155.130:8000/play/a09y/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Discovery.Turbo.(Latinoamérica).ar" tvg-name="Discovery Turbo" group-title="DEPORTES",Discovery Turbo
-http://45.185.11.126:8000/play/a07z/index.m3u8
+http://181.224.255.210:8001/play/a0q2/index.m3u8
 #EXTINF:-1 tvg-name="DSports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/DSports_logo_2022.svg" group-title="DEPORTES",DSports
 http://138.59.227.20:8000/play/a0ft/index.m3u8
 #EXTINF:-1 tvg-id="DSports2.ar" tvg-name="DSports 2" tvg-logo="https://envivo.rojadirectatv.casa//wp-content/uploads/futbol-agenda/canales/directv-sports-2.webp" group-title="DEPORTES",DSports 2
@@ -77,15 +79,13 @@ https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
 #EXTINF:-1 tvg-id="ESPN4LatinAmerica.us@South" tvg-name="ESPN 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" group-title="DEPORTES",ESPN 4
 https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8
 #EXTINF:-1 tvg-id="Canal.ESPN.Premium.(Argentina).ar" tvg-name="ESPN Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" group-title="DEPORTES",ESPN Premium
-http://190.128.214.97:64333/play/a02i/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports.ar@SD" tvg-name="Fox Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Fox_Sports_logo.svg/240px-Fox_Sports_logo.svg.png" group-title="DEPORTES",Fox Sports
-http://158.172.155.130:8000/play/a09x/index.m3u8
+http://138.59.227.20:8000/play/a086/index.m3u8
+#EXTINF:-1 tvg-name="Fox Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Fox_Sports_logo.svg/240px-Fox_Sports_logo.svg.png" group-title="DEPORTES",Fox Sports
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports720p.m3u8
 #EXTINF:-1 tvg-id="None" tvg-name="Fox Sports 2" group-title="DEPORTES",Fox Sports 2
 http://nocable.cc:8080/live/s5pPNV/514479/328476.m3u8
 #EXTINF:-1 tvg-name="Fox Sports 3" group-title="DEPORTES",Fox Sports 3
-http://200.123.40.1:8000/play/a04s/index.m3u8
-#EXTINF:-1 tvg-name="PX Sports" group-title="DEPORTES",PX Sports
-http://38.65.175.84:8000/play/a0ku/index.m3u8
+http://186.33.57.100:8000/play/a1ew/index.m3u8
 #EXTINF:-1 tvg-id="Canal.TNT.Sports.(Argentina).ar" tvg-name="TNT Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TNT_Logo_2016.svg/240px-TNT_Logo_2016.svg.png" group-title="DEPORTES",TNT Sports
 https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8
 #EXTINF:-1 tvg-id="Canal.TyC.Sports.ar" tvg-name="TyC Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/TyC_Sports_logo.svg/240px-TyC_Sports_logo.svg.png" group-title="DEPORTES",TyC Sports
@@ -104,23 +104,23 @@ http://nocable.cc:8080/live/s5pPNV/514479/272444.m3u8
 http://nocable.cc:8080/live/s5pPNV/514479/291479.m3u8
 
 # ======= PELICULAS Y SERIES =======
-#EXTINF:-1 tvg-id="AdultSwimLatinAmerica.us" tvg-name="Adult Swim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/960px-Adult_Swim_2003_logo.svg.png" group-title="PELICULAS Y SERIES",Adult Swim
-http://45.162.64.114/ADULT_SWIM/index.m3u8
+#EXTINF:-1 tvg-name="Adult Swim" group-title="PELICULAS Y SERIES",Adult Swim
+http://138.59.227.20:8000/play/a08d/index.m3u8
 #EXTINF:-1 tvg-name="AMC" group-title="PELICULAS Y SERIES",AMC
-http://45.185.11.126:8000/play/a06s/index.m3u8
+http://181.224.255.210:8001/play/a0f7/index.m3u8
 #EXTINF:-1 tvg-name="AMC Series" group-title="PELICULAS Y SERIES",AMC Series
-http://200.123.40.1:8000/play/a03z/index.m3u8
+http://181.224.255.210:8001/play/a0qn/index.m3u8
 #EXTINF:-1 tvg-name="Antena 3" group-title="PELICULAS Y SERIES",Antena 3
 http://181.224.255.210:8001/play/a0rc/index.m3u8
 #EXTINF:-1 tvg-name="Atres Series" group-title="PELICULAS Y SERIES",Atres Series
 http://181.224.255.210:8001/play/a0rm/index.m3u8
 #EXTINF:-1 tvg-id="Canal.AXN.(Argentina).ar" tvg-name="AXN" group-title="PELICULAS Y SERIES",AXN
-http://45.185.11.126:8000/play/a0ao/index.m3u8
+http://181.224.255.210:8001/play/a0m8/index.m3u8
 #EXTINF:-1 tvg-name="Cine.ar" group-title="PELICULAS Y SERIES",Cine.ar
-http://138.59.227.20:8000/play/a069/index.m3u8
-#EXTINF:-1 tvg-id="Canal.Cinecanal.(Argentina).ar" tvg-name="Cinecanal" group-title="PELICULAS Y SERIES",Cinecanal
-http://181.224.255.210:8001/play/a0ob/index.m3u8
-#EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="PELICULAS Y SERIES",Cinemax
+http://181.209.80.115:8000/play/a024/index.m3u8
+#EXTINF:-1 tvg-id="Canal.Cinecanal.(Argentina).ar" tvg-name="Cinecanal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="PELICULAS Y SERIES",Cinecanal
+https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL-video=2400000.m3u8
+#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@SD" tvg-name="Cinemax" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="PELICULAS Y SERIES",Cinemax
 https://streaming.onnethn.com/CINEMAX/playlist.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-name="Comedy Central" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="PELICULAS Y SERIES",Comedy Central
 https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
@@ -132,77 +132,81 @@ https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://streaming.onnethn.com/HBO/playlist.m3u8
 #EXTINF:-1 tvg-name="HBO 2" group-title="PELICULAS Y SERIES",HBO 2
-http://45.185.11.126:8000/play/a08o/index.m3u8
+http://45.173.231.22:8000/play/a0af/index.m3u8
 #EXTINF:-1 tvg-id="Canal.HBO.Family.Latinoamérica.ar" tvg-name="HBO Family" group-title="PELICULAS Y SERIES",HBO Family
-http://45.185.11.126:8000/play/a08q/index.m3u8
+http://181.224.255.210:8001/play/a0nv/index.m3u8
 #EXTINF:-1 tvg-id="Canal.HBO.Mundi.ar" tvg-name="HBO Mundi" group-title="PELICULAS Y SERIES",HBO Mundi
-http://45.185.11.126:8000/play/a082/index.m3u8
+http://181.224.255.210:8001/play/a0rf/index.m3u8
 #EXTINF:-1 tvg-id="Canal.HBO.Plus.ar" tvg-name="HBO Plus" group-title="PELICULAS Y SERIES",HBO Plus
-http://45.185.11.126:8000/play/a08p/index.m3u8
+http://181.224.255.210:8001/play/a0qz/index.m3u8
 #EXTINF:-1 tvg-id="Canal.HBO.Pop.ar" tvg-name="HBO Pop" group-title="PELICULAS Y SERIES",HBO Pop
-http://45.185.11.126:8000/play/a08s/index.m3u8
+http://181.224.255.210:8001/play/a0on/index.m3u8
 #EXTINF:-1 tvg-id="Canal.HBO.Signature.Latinoamérica.ar" tvg-name="HBO Signature" group-title="PELICULAS Y SERIES",HBO Signature
-http://45.185.11.126:8000/play/a08r/index.m3u8
+http://138.59.227.20:8000/play/a06h/index.m3u8
 #EXTINF:-1 tvg-id="Canal.HBO.Xtreme.ar" tvg-name="HBO Xtreme" group-title="PELICULAS Y SERIES",HBO Xtreme
-http://45.185.11.126:8000/play/a083/index.m3u8
-#EXTINF:-1 tvg-id="Investigation Discovery HD" tvg-name="ID" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/Investigation%20Discovery%20HD.png" group-title="PELICULAS Y SERIES",ID
-http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/2102/index.m3u8
+http://181.224.255.210:8001/play/a0nw/index.m3u8
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="ID" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/Investigation%20Discovery.png" group-title="PELICULAS Y SERIES",ID
+http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/2085/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Sony.(Argentina).ar" tvg-name="Sony Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="PELICULAS Y SERIES",Sony Channel
 http://138.121.15.230:9002/SONY/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Space.(Argentina).ar" tvg-name="Space" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Space_logo.svg/240px-Space_logo.svg.png" group-title="PELICULAS Y SERIES",Space
-http://181.224.255.210:8001/play/a0ma/index.m3u8
+https://aka-live1050.delivery.roku.com/98811578-ad32-4b51-8c80-533a07e13c24/t2-origin/out/v1/live_720.m3u8
 #EXTINF:-1 tvg-id="Canal.Star.Channel.(Argentina).ar" tvg-name="Star Channel" group-title="PELICULAS Y SERIES",Star Channel
 http://181.224.255.210:8001/play/a0oh/index.m3u8
 #EXTINF:-1 tvg-name="Studio Universal" group-title="PELICULAS Y SERIES",Studio Universal
-http://45.185.11.126:8000/play/a06o/index.m3u8
+http://190.128.214.97:64333/play/a03j/index.m3u8
 #EXTINF:-1 tvg-name="TCM" group-title="PELICULAS Y SERIES",TCM
 http://181.224.255.210:8001/play/a0qw/index.m3u8
 #EXTINF:-1 tvg-name="Telemundo" group-title="PELICULAS Y SERIES",Telemundo
 http://190.93.224.42/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="Canal.TNT.(Argentina).ar" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TNT_Logo_2016.svg/240px-TNT_Logo_2016.svg.png" group-title="PELICULAS Y SERIES",TNT
-http://181.224.255.210:8001/play/a0oa/index.m3u8
+http://45.134.141.161:2200/ARG/TNT/index.m3u8
 #EXTINF:-1 tvg-id="Canal.TNT.Novelas.(Argentina).ar" tvg-name="TNT Novelas" group-title="PELICULAS Y SERIES",TNT Novelas
-http://45.185.11.126:8000/play/a088/index.m3u8
+http://138.59.227.20:8000/play/a08e/index.m3u8
 #EXTINF:-1 tvg-name="TNT Series" group-title="PELICULAS Y SERIES",TNT Series
 http://181.224.255.210:8001/play/a0ls/index.m3u8
 #EXTINF:-1 tvg-name="Universal TV" group-title="PELICULAS Y SERIES",Universal TV
-http://45.185.11.126:8000/play/a0af/index.m3u8
+http://181.224.255.210:8001/play/a0lp/index.m3u8
 #EXTINF:-1 tvg-name="Volver" group-title="PELICULAS Y SERIES",Volver
 http://181.209.80.115:8000/play/a021/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Warner.TV.(Argentina).ar" tvg-name="Warner Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Warner_Channel_logo.png/240px-Warner_Channel_logo.png" group-title="PELICULAS Y SERIES",Warner Channel
-http://45.185.11.126:8000/play/a0am/index.m3u8
+http://181.224.255.210:8001/play/a0od/index.m3u8
 
 # ======= DOCUMENTALES =======
 #EXTINF:-1 tvg-id="Canal.Animal.Planet.(Argentina).ar" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/Animal%20Planet.png" group-title="DOCUMENTALES",Animal Planet
 http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/137/index.m3u8
-#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="Discovery Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Discovery_Channel_logo.svg/240px-Discovery_Channel_logo.svg.png" group-title="DOCUMENTALES",Discovery Channel
-http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/140/index.m3u8
+#EXTINF:-1 tvg-id="discoveryhd" tvg-name="Discovery Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Discovery_Channel_logo.svg/240px-Discovery_Channel_logo.svg.png" group-title="DOCUMENTALES" http-user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",Discovery Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://47a63631.edemist.com/iptv/LVFGLXHUW45A8PBECGUURD6K/9011/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Science" group-title="DOCUMENTALES",Discovery Science
 http://181.224.255.210:8001/play/a0mo/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Theater" group-title="DOCUMENTALES",Discovery Theater
-http://45.185.11.126:8000/play/a085/index.m3u8
+http://181.224.255.210:8001/play/a0fc/index.m3u8
 #EXTINF:-1 tvg-name="Discovery World" group-title="DOCUMENTALES",Discovery World
-http://45.185.11.126:8000/play/a086/index.m3u8
-#EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-name="Encuentro" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="DOCUMENTALES",Encuentro
-http://138.59.227.20:8000/play/a05s/index.m3u8
+http://138.59.227.20:8000/play/a076/index.m3u8
+#EXTINF:-1 tvg-name="Encuentro" group-title="DOCUMENTALES",Encuentro
+http://158.172.155.130:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-name="Film & Arts" group-title="DOCUMENTALES",Film & Arts
 http://181.224.255.210:8001/play/a0ql/index.m3u8
-#EXTINF:-1 tvg-id="History 2 HD" tvg-name="H2" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/History%202%20HD.png" group-title="DOCUMENTALES",H2
-http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/1052/index.m3u8
-#EXTINF:-1 tvg-id="HGTV HD" tvg-name="HGTV" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/HGTV%20HD.png" group-title="DOCUMENTALES",HGTV
-http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/6391/index.m3u8
+#EXTINF:-1 tvg-id="History 2 FHD" tvg-name="H2" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/History%202%20FHD.png" group-title="DOCUMENTALES",H2
+http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/2033/index.m3u8
+#EXTINF:-1 tvg-id="HGTV FHD" tvg-name="HGTV" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/HGTV%20FHD.png" group-title="DOCUMENTALES",HGTV
+http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/1084/index.m3u8
 #EXTINF:-1 tvg-name="History Channel" group-title="DOCUMENTALES",History Channel
 http://181.224.255.210:8001/play/a0m1/index.m3u8
-#EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/240px-Natgeologo.svg.png" group-title="DOCUMENTALES",National Geographic
-http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/14000/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/240px-Natgeologo.svg.png" group-title="DOCUMENTALES",National Geographic
+https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO-video=2400000.m3u8
 
 # ======= LIFESTYLE Y VARIEDADES =======
 #EXTINF:-1 tvg-name="Canal de la Ciudad" group-title="LIFESTYLE Y VARIEDADES",Canal de la Ciudad
-http://138.59.227.20:8000/play/a07c/index.m3u8
+http://181.209.80.115:8000/play/a06e/index.m3u8
+#EXTINF:-1 tvg-id="rural" tvg-name="Canal Rural" tvg-logo="http://www.fontedecanais.sh/logos/canais/canalrural.png" group-title="LIFESTYLE Y VARIEDADES" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",Canal Rural
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+http://64.31.23.207:80/96795792/50165825/5298047.ts
 #EXTINF:-1 tvg-name="Canal á" group-title="LIFESTYLE Y VARIEDADES",Canal á
-http://138.59.227.20:8000/play/a06d/index.m3u8
-#EXTINF:-1 tvg-name="Daystar" group-title="LIFESTYLE Y VARIEDADES",Daystar
-http://45.173.231.22:8000/play/a0cs/index.m3u8
+http://181.209.80.115:8000/play/a09j/index.m3u8
+#EXTINF:-1 tvg-id="daystar" tvg-name="Daystar" group-title="LIFESTYLE Y VARIEDADES",Daystar
+https://hls-live-media-gc.cdn01.net/mpegts/232076_1278481/Ud8LVhkZyGoQxWeXox5msQ/1796515200/media_mpegts_1.m3u8?source=othersites&via=direct
 #EXTINF:-1 tvg-name="E! Entertainment" group-title="LIFESTYLE Y VARIEDADES",E! Entertainment
 http://45.173.231.22:8000/play/a08t/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Elgourmet.ar" tvg-name="El Gourmet" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="LIFESTYLE Y VARIEDADES",El Gourmet
@@ -210,11 +214,11 @@ https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
 #EXTINF:-1 tvg-id="Food Network HD" tvg-name="Food Network" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/Food%20Network%20HD.png" group-title="LIFESTYLE Y VARIEDADES",Food Network
 http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/2419/index.m3u8
 #EXTINF:-1 tvg-name="Hola TV" group-title="LIFESTYLE Y VARIEDADES",Hola TV
-http://200.115.120.1:8000/play/ca088/index.m3u8
+http://45.5.118.152:8000/play/a0dl/index.m3u8
 #EXTINF:-1 tvg-name="Home & Health" group-title="LIFESTYLE Y VARIEDADES",Home & Health
 http://181.224.255.210:8001/play/a0st/index.m3u8
-#EXTINF:-1 tvg-id="Canal.HTV.ar" tvg-name="HTV" group-title="LIFESTYLE Y VARIEDADES",HTV
-http://181.224.255.210:8001/play/a0qo/index.m3u8
+#EXTINF:-1 tvg-id="Canal.HTV.ar" tvg-name="HTV" tvg-logo="https://i.imgur.com/NlKFNHS.png" group-title="LIFESTYLE Y VARIEDADES",HTV
+http://45.134.141.161:2200/ARG/HTV/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Lifetime.(Argentina).ar" tvg-name="Lifetime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" group-title="LIFESTYLE Y VARIEDADES",Lifetime
 https://streaming.onnethn.com/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="Canal.MTV.(Argentina).ar" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/MTV%20Live%20HD.png" group-title="LIFESTYLE Y VARIEDADES",MTV
@@ -234,18 +238,22 @@ http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/723/index.m3u8
 #EXTINF:-1 tvg-name="Clan TV" tvg-logo="http://45.5.117.57:8200/playlist/tvg-logo/a0e8.png" group-title="INFANTILES",Clan TV
 http://45.5.117.57:8200/play/a0e8/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Discovery.Kids.(Argentina).ar" tvg-name="Discovery Kids" group-title="INFANTILES",Discovery Kids
-http://45.185.11.126:8000/play/a0ad/index.m3u8
+http://181.224.255.210:8001/play/a0pv/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Disney.Channel.(Argentina).ar" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/86/Disney_Channel_logo_2014.svg/240px-Disney_Channel_logo_2014.svg.png" group-title="INFANTILES",Disney Channel
 https://barinaslive1.boldmss.com/DISNEY/DISNEY.isml/DISNEY.m3u8
 #EXTINF:-1 tvg-id="Canal.Disney.Junior.(Argentina).ar" tvg-name="Disney Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="INFANTILES",Disney Junior
 http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Nick.Jr..(Argentina).ar" tvg-name="Nick Jr" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="INFANTILES",Nick Jr
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/25aibiz25-maker/edit/refs/heads/main/Nickelodeon.png" group-title="INFANTILES",Nickelodeon
-http://2477fd5f.cbilant.com/iptv/WCSZMUM84X4689VHGC7UDAQQ/541/index.m3u8
+#EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="INFANTILES",Nickelodeon
+https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK-video=2400000.m3u8
 #EXTINF:-1 tvg-id="Canal.Pakapaka.ar" tvg-name="Paka Paka" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Paka_Paka_logo.png/240px-Paka_Paka_logo.png" group-title="INFANTILES",Paka Paka
-http://200.123.40.1:8000/play/a05i/index.m3u8
+http://138.59.227.20:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-id="PlimPlim.ar@SD" tvg-name="Plim Plim" group-title="INFANTILES",Plim Plim
 http://45.70.168.162:1503/play/a02a/index.m3u8
-#EXTINF:-1 tvg-id="Canal.Tooncast.ar" tvg-name="Tooncast" group-title="INFANTILES",Tooncast
-http://181.224.255.210:8001/play/a0ou/index.m3u8
+#EXTINF:-1 tvg-id="Canal.Tooncast.ar" tvg-name="Tooncast" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="INFANTILES",Tooncast
+http://45.134.141.161:2200/ARG/Tooncast/index.m3u8
+
+# ======= VARIOS =======
+#EXTINF:-1 tvg-name="Bayres TV" group-title="VARIOS",Bayres TV
+https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8
